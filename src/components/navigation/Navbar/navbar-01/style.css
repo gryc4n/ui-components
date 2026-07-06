@@ -1,0 +1,57 @@
+
+.link-reset{
+    text-decoration: none;
+    color: white;
+}
+ul{
+    list-style-type: none;
+}
+
+#header{
+    background-color: #0F172A;
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+}
+
+.logo{
+    width: 40px;
+    height: auto;
+    margin: 10px;
+
+}
+
+.site-title{
+    color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    height: 30px;
+    width: 1960px;
+    align-items: center;
+}
+.nav-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nav-item{
+    margin: 10px;
+}
+.btn{
+    background-color: #2563EB;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    padding: 5px 10px;
+    border-radius: 8px;
+
+}
+
