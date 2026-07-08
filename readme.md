@@ -59,3 +59,147 @@ The library will continue to grow over time. Planned components include:
 ## License
 
 MIT
+
+
+## Structure
+
+UI-components/
+│
+├── .gitignore
+├── LICENSE
+├── README.md
+│
+├── docs/
+│
+├── public/
+│
+└── src/
+    │
+    ├── components/
+    │   │
+    │   ├── primitives/
+    │   │   │
+    │   │   ├── Button/
+    │   │   ├── IconButton/
+    │   │   ├── Input/
+    │   │   ├── Textarea/
+    │   │   ├── Label/
+    │   │   ├── Badge/
+    │   │   ├── Avatar/
+    │   │   ├── Spinner/
+    │   │   ├── Skeleton/
+    │   │   ├── Divider/
+    │   │   ├── Progress/
+    │   │   └── Icon/
+    │   │
+    │   ├── forms/
+    │   │   ├── Checkbox/
+    │   │   ├── Radio/
+    │   │   ├── Switch/
+    │   │   ├── Select/
+    │   │   ├── MultiSelect/
+    │   │   ├── Combobox/
+    │   │   ├── Slider/
+    │   │   ├── RangeSlider/
+    │   │   ├── ColorPicker/
+    │   │   ├── DatePicker/
+    │   │   ├── TimePicker/
+    │   │   ├── OTPInput/
+    │   │   ├── FileUpload/
+    │   │   └── Form/
+    │   │
+    │   ├── overlays/
+    │   │   ├── Modal/
+    │   │   ├── Drawer/
+    │   │   ├── Dialog/
+    │   │   ├── Popover/
+    │   │   ├── Tooltip/
+    │   │   ├── HoverCard/
+    │   │   ├── ContextMenu/
+    │   │   └── Toast/
+    │   │
+    │   ├── navigation/
+    │   │   ├── Navbar/
+    │   │   ├── Sidebar/
+    │   │   ├── Breadcrumb/
+    │   │   ├── Pagination/
+    │   │   ├── Tabs/
+    │   │   ├── Stepper/
+    │   │   ├── Menu/
+    │   │   └── CommandPalette/
+    │   │
+    │   ├── feedback/
+    │   │   ├── Alert/
+    │   │   ├── Notification/
+    │   │   ├── EmptyState/
+    │   │   ├── ErrorBoundary/
+    │   │   ├── LoadingOverlay/
+    │   │   └── Result/
+    │   │
+    │   ├── display/
+    │   │   ├── Card/
+    │   │   ├── Accordion/
+    │   │   ├── Carousel/
+    │   │   ├── Timeline/
+    │   │   ├── Table/
+    │   │   ├── DataGrid/
+    │   │   ├── List/
+    │   │   ├── TreeView/
+    │   │   ├── Statistic/
+    │   │   └── Tag/
+    │   │
+    │   ├── media/
+    │   │   ├── Image/
+    │   │   ├── AvatarGroup/
+    │   │   ├── Gallery/
+    │   │   ├── VideoPlayer/
+    │   │   └── FilePreview/
+    │   │
+    │   ├── layout/
+    │   │   ├── Container/
+    │   │   ├── Grid/
+    │   │   ├── Stack/
+    │   │   ├── Flex/
+    │   │   ├── SplitPane/
+    │   │   ├── Masonry/
+    │   │   └── AspectRatio/
+    │   │
+    │   ├── charts/
+    │   │   ├── LineChart/
+    │   │   ├── BarChart/
+    │   │   ├── PieChart/
+    │   │   └── Sparkline/
+    │   │
+    │   └── templates/
+    │       ├── LoginForm/
+    │       ├── RegisterForm/
+    │       ├── PricingCard/
+    │       ├── ProductCard/
+    │       ├── DashboardHeader/
+    │       ├── SearchBar/
+    │       └── UserMenu/
+    │
+    ├── hooks/
+    │   ├── useClickOutside/
+    │   ├── useClipboard/
+    │   ├── useDebounce/
+    │   ├── useDisclosure/
+    │   ├── useHover/
+    │   ├── useIntersectionObserver/
+    │   ├── useLocalStorage/
+    │   ├── useMediaQuery/
+    │   ├── useOnScreen/
+    │   ├── useScrollLock/
+    │   ├── useTheme/
+    │   ├── useToggle/
+    │   └── useWindowSize/
+    │
+    ├── icons/
+    │
+    ├── styles/
+    │
+    ├── types/
+    │
+    ├── utils/
+    │
+    └── showcase/
