@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Input-1</title>
+        <link rel="stylesheet" href="/src/styles/global.css">
+        <link rel="stylesheet" href="/src/components/primitives/Input/input-1/style.css">
+    </head>
+
+    <body>
+        <h1 class="site-title">Input Component - showcase</h1>
+        <p class="description">Different states and variations of the input component</p>
+        <div class="input-container">
+
+            <div class="input-variant">
+                <label for="default" class="input-label">1. Default</label>
+                <p class="guide-text">Email</p>
+                <input class="input" id="default" type="email" placeholder="Enter your email.">
+            </div>
+            <div class="input-variant">
+                <label for="focus" class="input-label">2. Focus</label>
+                <p class="guide-text">Email</p>
+                <input class="input" id="focus" type="email" placeholder="jade@example.ex">
+            </div>
+            <div class="input-variant">
+                <label for="disabled" class="input-label">3. Disabled</label>
+                <p class="guide-text">Email</p>
+                <input class="input" id="disabled" type="email" placeholder="Disabled input.">
+            </div>
+            <div class="input-variant">
+                <label for="error" class="input-label">4. Error</label>
+                <p class="guide-text">Email</p>
+                <input class="input" id="error" type="email" placeholder="Invalid Email.">
+                <div class="response">
+                    <img class="icon" src="/src/icons/exclamation-mark-in-a-circle-svgrepo-com.svg" alt="exclamation mark icon">
+                    <p class="response-content wrong">Email is required.</p>
+                </div>
+            </div>
+            <div class="input-variant">
+                <label for="success" class="input-label">5. Success</label>
+                <p class="guide-text">Email</p>
+                <input class="input" id="success" type="email" placeholder="jade@example.ex">
+                <div class="response">
+                    <img class="icon" src="/src/icons/correct-success-tick-svgrepo-com.svg" alt="tick icon">
+                    <p class="response-content correct">Looks good.</p>
+                </div>
+            </div>
+            <div class="input-variant">
+                <label for="search" class="input-label">6. Search</label>
+                <div class="search-container">
+                    <img class="icon" src="/src/icons/magnify-svgrepo-com.svg" alt="mgn glass icon">
+                    <input class="input" id="search" type="search" placeholder="Search products...">
+                </div>
+            </div>
+            <div class="input-variant">
+                <label for="password" class="input-label">7. Password</label>
+                <p class="guide-text">Your password</p>
+                <div class="password-container">
+                    <input class="input" id="password" type="password" placeholder="*************.">
+                    <img class="icon" src="/src/icons/eye-svgrepo-com.svg" alt="eye icon">
+                </div>
+            </div>
+            <div class="input-variant">
+                <label for="text-area" class="input-label">8. Textarea (for reference)</label>
+                <p class="guide-text">Message</p>
+                <input class="input" id="text-area" type="text" placeholder="Enter your message...">
+            </div>
+            <div class="input-variant">
+                <label for="helper-text" class="input-label">9. With helper text</label>
+                <p class="guide-text">Username</p>
+                <input class="input" id="helper-text" type="text" placeholder="gryc4n">
+                <p class="response-valid">This is your unique username.</p>
+            </div>
+
+        </div>
+
+    </body>
+
+
+
+</html>
