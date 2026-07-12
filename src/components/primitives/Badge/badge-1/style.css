@@ -1,0 +1,170 @@
+
+body{
+    padding: 12px 16px;
+    margin-left: 20px;
+}
+
+
+.site-title{
+    font-size: 32px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.description{
+    font-size: 14.5px;
+}
+
+.badge-container{
+    display: flex;
+    gap: 100px;
+}
+
+.variant-container{
+
+}
+
+.variant-title{
+    font-size: 20px;
+    font-weight: bold;
+    color: #374151;
+}
+
+.style-container{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.size-container{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.style-title{
+    font-size: 15px;
+    color: #374151;
+}
+
+.size-title{
+    font-size: 15px;
+    color: #374151;
+}
+
+.badge{
+    border: 2px solid #374151;
+    border-radius: 22px;
+    padding: 8px 14px;
+}
+
+.filled{
+    color: var(--white);
+    border-width: 2px;
+    border-style: solid;
+}
+
+.soft{
+    border-width: 2px;
+    border-style: solid;
+}
+
+.outline{
+    background: transparent;
+    border-width: 2px;
+    border-style: solid;
+    font-weight: bold;
+}
+
+.primary{
+    background-color: var(--primary-bg);
+    border-color: var(--primary-border);
+}
+
+.success{
+    background-color: var(--success-bg);
+    border-color: var(--success-border);
+}
+
+.warning{
+    background-color: var(--warning-bg);
+    border-color: var(--warning-border);
+}
+
+.error{
+    background-color: var(--error-bg);
+    border-color: var(--error-border);
+}
+
+.neutral{
+    background-color: var(--neutral-bg);
+    border-color: var(--neutral-border);
+}
+
+.soft.primary{
+    color: var(--primary-text);
+    background-color: var(--primary-bg-soft);
+}
+
+.soft.success{
+    color: var(--success-text);
+    background-color: var(--success-bg-soft);
+}
+
+.soft.warning{
+    color: var(--warning-text);
+    background-color: var(--warning-bg-soft);
+}
+
+.soft.error{
+    color: var(--error-text);
+    background-color: var(--error-bg-soft);
+}
+
+.soft.neutral{
+    color: var(--neutral-text);
+    background-color: var(--neutral-bg-soft);
+}
+
+
+.outline.primary{
+    background: transparent;
+    color: var(--primary-text);
+}
+
+.outline.success{
+    background: transparent;
+    color: var(--success-text);
+}
+
+.outline.warning{
+    background: transparent;
+    color: var(--warning-text);
+}
+
+.outline.error{
+    background: transparent;
+    color: var(--error-text);
+}
+
+.outline.neutral{
+    background: transparent;
+    color: var(--neutral-text);
+}
+
+.xs{
+    font-size: 10px;
+}
+
+.s{
+    font-size: 12px;
+}
+
+.m{
+    font-size: 14px;
+}
+
+.l{
+    font-size: 16px;
+}
