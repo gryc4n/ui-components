@@ -1,0 +1,101 @@
+body{
+    padding: 12px 16px;
+    margin-left: 20px;
+    background-color: var(--neutral-bg-soft);
+}
+
+.site-title{
+    font-size: 32px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.description{
+    font-size: 14.5px;
+}
+
+.avatar-container{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:5px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.variant-title{
+    font-size: 26px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.avatar{
+    width: 70px;
+    height: 70px;
+    padding: 5px;
+    border: 2px solid var(--neutral-border);
+    border-radius: 50px;
+}
+
+.rounded{
+    border-radius: 8px;
+}
+
+.square{
+    border-radius: 0px;
+}
+
+.s{
+    width: 30px;
+    height: 30px;
+}
+
+.m{
+    width: 50px;
+    height: 50px;
+}
+
+.l{
+    width: 70px;
+    height: 70x;
+}
+
+.xl{
+    width: 100px;
+    height: 100px;
+}
+
+.status-variant{
+    position: relative;
+    display: inline-block;
+}
+
+.status{
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    bottom: 15px;
+    right: 3px;
+    border: 2px solid white;
+}
+
+.online{
+    background-color: var(--success-bg);
+}
+
+.dnd{
+    background-color: var(--error-bg);
+}
+
+.brb{
+    background-color: var(--warning-bg);
+}
+
+.offline{
+    background-color: var(--neutral-bg);
+}
