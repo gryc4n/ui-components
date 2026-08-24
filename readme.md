@@ -63,8 +63,10 @@ MIT
 
 ## Structure
 
-UI-components/
-│
+## Structure
+
+```text
+ui-components/
 ├── .gitignore
 ├── LICENSE
 ├── README.md
@@ -74,11 +76,8 @@ UI-components/
 ├── public/
 │
 └── src/
-    │
     ├── components/
-    │   │
     │   ├── primitives/
-    │   │   │
     │   │   ├── Button/
     │   │   ├── IconButton/
     │   │   ├── Input/
@@ -195,11 +194,8 @@ UI-components/
     │   └── useWindowSize/
     │
     ├── icons/
-    │
     ├── styles/
-    │
     ├── types/
-    │
     ├── utils/
-    │
     └── showcase/
+```
