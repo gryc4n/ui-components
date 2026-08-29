@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Line Chart</title>
+        <link rel="stylesheet" href="/UI-components/src/styles/global.css">
+        <link rel="stylesheet" href="/UI-components/src/styles/variables.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <div class="page-container">
+            <header class="header">
+                <div class="header-content">
+                    <h1 class="site-title">Line Chart</h1>
+                    <p class="site-description">A collection of line charts styles and variants</p>
+                </div>
+            </header>
+
+            <main class="main-content">
+                <button class="value-changer">Random Values</button>
+                <div class="sidebars-containers">
+                    <figure class="line-chart">
+                        <figcaption class="line-chart-title">Line Chart</figcaption>
+
+                            <svg class="line-chart-graph" viewBox="0 0 500 250">
+                                <polyline
+                                    class="line-chart-line"
+                                    points="40,190 130,130 220,160 310,70 400,110 480,40"
+                                />
+
+                                <circle cx="40" cy="190" r="5"></circle>
+                                <circle cx="130" cy="130" r="5"></circle>
+                                <circle cx="220" cy="160" r="5"></circle>
+                                <circle cx="310" cy="70" r="5"></circle>
+                                <circle cx="400" cy="110" r="5"></circle>
+                                <circle cx="480" cy="40" r="5"></circle>
+                            </svg>
+                    </figure>
+
+                </div>
+            </main>
+
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
